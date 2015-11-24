@@ -25,10 +25,10 @@
 /* need this to build with Lua 5.2: enables lua_strlen() macro */
 #define LUA_COMPAT_ALL
 
-#include <lua.h>
-#include <luaconf.h>
-#include <lauxlib.h>
-#include <lualib.h>
+#include <luajit-2.0/lua.h>
+#include <luajit-2.0/luaconf.h>
+#include <luajit-2.0/lauxlib.h>
+#include <luajit-2.0/lualib.h>
 
 #include "pythoninlua.h"
 #include "luainpython.h"

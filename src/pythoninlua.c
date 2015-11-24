@@ -25,8 +25,8 @@
 /* need this to build with Lua 5.2: defines luaL_register() macro */
 #define LUA_COMPAT_MODULE
 
-#include <lua.h>
-#include <lauxlib.h>
+#include <luajit-2.0/lua.h>
+#include <luajit-2.0/lauxlib.h>
 
 #include "pythoninlua.h"
 #include "luainpython.h"
